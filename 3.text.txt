@@ -1,1 +1,10 @@
 测试git忽略清单  .gitignore文件写要忽略的文件
+在.gitignore文件里面的文件名都是被忽略的，最好也把自己.gitignore也写在.gitignore文件里面，可以把自己也忽略
+用于：当有好多文件要上传，而有几个文件（node_modules和一些不需要上传的文件）不必要上传的时候，
+    创建一个.gitignore文件，里面这样写   node_modules
+                                       1.html
+                                       2.html
+                                       .gitignore
+                                       等等
+        
+    
